@@ -9652,7 +9652,7 @@ IonicModule.directive('exposeAsideWhen', ['$window', function($window) {
   };
 }]);
 
-
+debugger;
 var GESTURE_DIRECTIVES = 'onHold onTap onDoubleTap onTouch onRelease onDragStart onDrag onDragEnd onDragUp onDragRight onDragDown onDragLeft onSwipe onSwipeUp onSwipeRight onSwipeDown onSwipeLeft'.split(' ');
 
 GESTURE_DIRECTIVES.forEach(function(name) {
